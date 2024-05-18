@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#center{
+    width: 90%;
+    height: 90%;
+    background-color: #454545;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    backdrop-filter: blur 50px;
+    box-shadow: 1px 1px 20px rgb(53, 53, 53);
+    backdrop-filter: blur(8px);
+    
+}
+#center img{
+    width: 90%;
+    position: absolute;
+    top: -20%;
+    z-index: 999;
+}
+
+#nav{
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    top: -20%;
+    left: 32%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#nav a{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+#logo img{
+   width: 8%;
+   position: absolute;
+   top: 0%;
+   left: 3%;
+    
+}
+img{
+    width: 10%;
+    position: absolute;
+}   
+#right{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    font-size: 10px;
+    color: white;
+}
+#right1{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-size: 10px;
+    color: white;
+}
+#right2{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    font-size: 10px;
+    color: orange;
+
+}
+#right3{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+    font-size: 10px;
+    color: white;
+}
+#right4{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    color: white;
+}
+
+#left img{
+    width: 2%;
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+#left1 img{
+    width: 2%;
+    position: absolute;
+    top: 45%;
+    left: 90%;
+}
+#left2 img{
+    width: 2%;
+    position: absolute;
+    top: 60%;
+    left: 90%;
+}
+#left3 img{
+    width: 2%;
+    position: absolute;
+    top: 75%;
+    left: 90%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.a1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 92%;
+    font-size: 12px;
+}
+.a2{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 92%;
+    font-size: 12px;
+}
+.a3{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 92%;
+    font-size: 12px;
+}
+.a4{
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 92%;
+    font-size: 12px;
+}
+#nav2{
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    font-size: 20px;
+
+}
+#go{
+    width: 6%;
+    height: 10%;
+    background-color: orangered;
+    position: absolute;
+    top: 90%;
+    left: 94%;
+}
+#go h1{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    position: relative;
+    top: 25%;
+    left: 20%;
+}
+#line{
+    width: 6%;
+    height: 10%;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 94%;
+}
+#line i{
+    color: orange;
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
